@@ -16,3 +16,41 @@ body {
   border-radius: 20px;
   box-shadow: 0 5px 10px;
 }
+h1 {
+  font-size: 47px;
+  margin-bottom: 40px;
+}
+p {
+  font-size: 67px;
+  margin-bottom: 40px;
+}
+#btn-1 {
+  background-color: red;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btn-1:hover {
+  background-color: rgba(255, 0, 0, 0.806);
+}
+#btn-2 {
+  background-color: gray;
+  border: none;
+  padding: 11px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btn-2:hover {
+  background-color: rgba(128, 128, 128, 0.812);
+}
+#btn-3 {
+  background-color: green;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btn-3:hover {
+  background-color: rgba(0, 128, 0, 0.82);
+}
