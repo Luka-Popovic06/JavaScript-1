@@ -9,3 +9,7 @@ if (godine < 20) {
 } else {
   console.log(`Godine su vece od 20`);
 }
+//Counter
+const minus = document.querySelector("#btn-1");
+const reset = document.querySelector("#btn-2");
+const plus = document.querySelector("#btn-3");
