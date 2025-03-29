@@ -1,4 +1,4 @@
-/*console.log(`Moj prvi projekat.`);
+console.log(`Moj prvi projekat.`);
 const ime = "Lazar";
 let prezime = "Vuckovic";
 prezime = "Petrovic";
@@ -8,8 +8,10 @@ if (godine < 20) {
   console.log(`Godine su manje od 20`);
 } else {
   console.log(`Godine su vece od 20`);
-}*/
+}
+
 //Counter
+
 const btnOne = document.querySelector("#btn-1");
 const btnTwo = document.querySelector("#btn-2");
 const btnThree = document.querySelector("#btn-3");
@@ -35,3 +37,12 @@ function reset() {
   number.textContent = 0;
   number.style.color = "black";
 }
+btnOne.addEventListener("click", function () {
+  calculate(btnOne);
+  color();
+});
+btnTwo.addEventListener("click", reset);
+btnThree.addEventListener("click", function () {
+  calculate(btnThree);
+  color();
+});
